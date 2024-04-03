@@ -42,7 +42,7 @@ class block_moodle_certificate extends block_base
             $rows .= "<tr>
                         <td class='align-middle text-center'>$certificate->fullname</td>
                         <td class='text-center'>
-                            <a href='".$CFG->wwwroot."/blocks/test_certificate/certificate.php?id=$certificate->id&type=pdf' _target='blank' class='btn btn-primary'>"
+                            <a href='".$CFG->wwwroot."/blocks/moodle_certificate/certificate.php?id=$certificate->id&type=pdf' _target='blank' class='btn btn-primary'>"
                             . get_string('download', 'block_moodle_certificate') .
                             "</a>
                         </td>        

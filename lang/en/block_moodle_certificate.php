@@ -1,6 +1,6 @@
 <?php
 
-$string['pluginname'] = 'Moodle block certificate';
+$string['pluginname'] = 'Certificate List';
 $string['titlesetting']='Certificate title';
 $string['titlesettingdescription']='Certificate title which will be shown as the first text on certificate';
 
